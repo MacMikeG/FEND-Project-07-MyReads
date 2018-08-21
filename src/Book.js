@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class Book extends Component {
     render() {
         let bookThumbnail = this.props.book.imageLinks  
-                               ? this.props.book.imageLinks.thumbnail   //use thumbnail
-                               : '';                                    //if not, use empty string
+                          ? this.props.book.imageLinks.thumbnail   //use thumbnail
+                          : '';                                    //if not, use empty string
         return (
             /*hardcoded components copied from App.js to be replaced with dynamically genarated by React*/
             <div className="book">          

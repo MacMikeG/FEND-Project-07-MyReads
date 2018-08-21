@@ -63,7 +63,7 @@ class SearchPage extends Component {
 
                             this.props.books.map(book => (          //map through all the books fetched from API
                                 book.id === searchedBooks.id ?      //if true, then book already exist 
-                                defaultShelf = book.defaultShelf :
+                                defaultShelf = book.shelf:
                                 ''
                             ));
 
